@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Sora:wght@600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Quicksand:wght@500&family=Sora:wght@600&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="#home" class="logo" style="color: #ff6600;">Portfolio</a>
+        <div class="navlis">
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <div class="container" id="home">
+        <div class="left hidden">
+            <div class="image"><img src="img/Saketh.jpg" alt="Your Image"></div>
+            <div class="social-icons">
+                <span
+                    style="padding: 1px 0px; font-size: 20px; cursor: pointer;transition: color 0.3s;margin:0px 8px;color: white;"
+                    onmouseover="this.style.color='skyblue'" onmouseout="this.style.color=''"><a href="https://www.linkedin.com/in/paluvai-bhargav-saketh-75736b21a/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a></span>
+                <span
+                    style="padding: 1px 0px; font-size: 20px; cursor: pointer;transition: color 0.3s;margin:0px 8px;color: white;"
+                    onmouseover="this.style.color='skyblue'" onmouseout="this.style.color=''"><a href="https://github.com/paluvaisaketh" target="_blank"><i
+                                class="fa-brands fa-github"></i></a></span>
+                <span
+                    style="padding: 1px 0px; font-size: 20px; cursor: pointer;transition: color 0.3s;margin:0px 8px;color: white;"
+                    onmouseover="this.style.color='skyblue'" onmouseout="this.style.color=''"><a href="https://leetcode.com/u/saketh2003__/" target="_blank"><i
+                                class="fa-solid fa-laptop-code"></i></a></span>
+            </div>
+        </div>
+        <div class="right hidden2">
+            <div class="introduction">Hi, I'm</div>
+            <div class="name">Paluvai Bhargav Saketh</div>
+            <div class="description">
+                Welcome to my portfolio website! I'm a passionate and aspiring software engineer with a strong desire to
+                create innovative solutions and push the boundaries of technology. With a deep love for coding and
+                problem-solving, I am constantly seeking opportunities to learn and grow in this ever-evolving field.
+            </div>
+            <div class="buttons">
+                <a href="https://drive.google.com/uc?export=download&id=18w04jYXy6NaPxs1vM2OOVIywkJHdYSxf"><button>Download CV</button></a>
+                <a href="mailto:paluvaibhargavsaketh@gmail.com"><button>Contact</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="cont">
+        <div class="heading" id="about">About Me</div>
+        <div class="content hidden2">
+            <p>
+                • I am a highly motivated and organized individual seeking an entry-level position in the Software
+                industry. With a Bachelor's degree in Computer Science, I bring proficiency in C++ and strong skills in
+                teamwork, problem-solving, and the product development lifecycle.
+            </p>
+            <p>
+                • I actively seek out opportunities to expand my knowledge and skills, embracing new technologies and
+                approaches.Feel free to explore my work and get in touch if you have any questions or opportunities to
+                collaborate.
+            </p>
+        </div>
+        <div class="heading" id="skills">Skills</div>
+        <div class="skills">
+            <div class="skill-box hidden">
+                <h5>Languages</h5>
+                <p>• C</p>
+                <p>• C++</p>
+                <p>• JAVA</p>
+                <p>• PYTHON</p>
+            </div>
+            <div class="skill-box hidden">
+                <h5>Web Technologies</h5>
+                <p>• HTML</p>
+                <p>• CSS</p>
+                <p>• JavaScript</p>
+            </div>
+            <div class="skill-box hidden">
+                <h5>Database and Frameworks</h5>
+                <p>• SQL</p>
+                <p>• MongoDB</p>
+            </div>
+            <div class="skill-box hidden">
+                <h5>Technical Skills</h5>
+                <p>• Problem Solving</p>
+                <p>• Data Structures and Algorithms</p>
+                <p>• Web Development</p>
+            </div>
+        </div>
+    </div>
+    <div class="heading" id="education">Education</div>
+    <div class="education hidden2">
+        <p>Bachelor’s Degree in Computer Science Engineering(CGPA – 8.49/10)</p>
+        <p style="color: grey;">SASTRA DEEMED TO BE UNIVERSITY</p>
+        <p style="color: grey;"><i class="fa-regular fa-calendar"></i> 2021-2025</p>
+
+        <p>Intermediate - Maths, Physics, Chemistry (Percentage:98.8%)</p>
+        <p style="color: grey;">Little Flowers Junior College, Bhadrachalam</p>
+        <p style="color: grey;"><i class="fa-regular fa-calendar"></i> 2019-2021</p>
+
+        <p>SSC (9.7/10)</p>
+        <p style="color: grey;">Triveni School, Bhadrachalam</p>
+        <p style="color: grey;"><i class="fa-regular fa-calendar"></i> 2018-2019</p>
+    </div>
+    <div class="heading" id="projects">Projects</div>
+    <div class="projects">
+        <div class="food hidden2">
+            <div class="im"><i class="fa-solid fa-broom"></i></div>
+            <div class="content">
+                <h4 style="text-align: center;">Hostel room cleaning Website</h4>
+                <p>• Developed a responsive full-stack web application for college students to schedule hostel room cleaning services.</p>
+                <p>• Implemented an Authentication System to ensure security and personalization</p>
+                <p>• Integrated real-time slot availability and dynamic content rendering based on user login status.</p>
+                <p>• Designed a clean and user-friendly interface, ensuring ease of navigation and an enhanced user experience.</p>
+            </div>
+        </div>
+        <div class="port hidden2">
+            <div class="im"><i class="fa-solid fa-user"></i></div>
+            <div class="content">
+                <h4 style="text-align: center;">Portfolio Website</h4>
+                <p>• Created a portfolio website using HTML, CSS, and JavaScript . It serves as a platform to introduce
+                    myself, share my projects, and provide information about my
+                    education and skills</p>
+            </div>
+        </div>
+    </div>
+    <div class="heading" id="contact">Contact</div>
+    <div class="maincontainer">
+        <div class="container">
+            <div class="left-box hidden">
+                <div class="contact-info">
+                    <div class="l">
+                        <h3>Get In Touch</h3>
+                    </div>
+                    <label for="phone" class="lab">Phone:</label>
+                    <p><span class="symbol phone-symbol">&#x1F4DE;</span> +91-7842814996</p>
+
+                    <label for="email" class="lab">Email:</label>
+                    <p>paluvaibhargavsaketh@gmail.com</p>
+
+                    <label for="address" class="lab">Address:</label>
+                    <p>3-29, Rajeev nagar colony, Bhadrachalam, Telangana</p>
+                    <p>Pincode:507111</p>
+                </div>
+                <div class="fus">
+                    <h3 style="color:white; padding-left: 4px;">Social Media</h3>
+                    <div class="icons" style="display: flex;justify-content: left;">
+                        <a href="https://www.facebook.com/share/1Dkadpws8q/?mibextid=qi2Omg" target="_blank"><span
+                            style="padding: 1px; font-size: 25px; cursor: pointer;transition: color 0.3s;margin: 8px;color: white;"
+                            onmouseover="this.style.color='blue'" onmouseout="this.style.color=''"><i
+                                class="fa-brands fa-facebook"></i></span></a>
+                        <a href="https://www.instagram.com/saketh___21/" target="_blank"><span
+                            style="padding: 1px; font-size: 25px; cursor: pointer;transition: color 0.3s;margin: 8px;color: white;"
+                            onmouseover="this.style.color='orange'" onmouseout="this.style.color=''"><i
+                                class="fa-brands fa-instagram"></i></span></a>
+                        <a href="https://www.youtube.com/@saketh3668" target="_blank"><span
+                            style="padding: 1px; font-size: 25px; cursor: pointer;transition: color 0.3s;margin: 8px;color: white;"
+                            onmouseover="this.style.color='red'" onmouseout="this.style.color=''"><i
+                                class="fa-brands fa-youtube"></i></span></a>
+                        <a href="https://x.com/ramzssz?t=G4qC3heFj5oVVb7viAmyMw&s=08" target="_blank"><span
+                            style="padding: 1px; font-size: 25px; cursor: pointer;transition: color 0.3s;margin: 8px;color: white;"
+                            onmouseover="this.style.color='skyblue'" onmouseout="this.style.color=''"><i
+                                class="fa-brands fa-square-x-twitter"></i></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-box hidden1">
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <div class="ll">
+                        <button type="submit" class="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="rights" style="text-align: center;">
+        <p>&copy; Saketh. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    // Use jQuery.noConflict() to isolate jQuery
+    var $jq3_6_0 = jQuery.noConflict(true);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+    menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('open');
+    }
+    window.onscroll = () => {
+        var nav = document.querySelector('header');
+
+        if (window.pageYOffset > 0) {
+            nav.classList.add("sticky")
+        }
+        else {
+            nav.classList.remove("sticky");
+        }
+    }
+    document.querySelectorAll('.navbar a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').slice(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    
+                });
+            }
+        });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+            else {
+                entry.target.classList.remove('show');
+            }
+        });
+    });
+    const hiddenelements = document.querySelectorAll('.hidden');
+    hiddenelements.forEach((el) => observer.observe(el));
+
+    const observer1 = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show1');
+            }
+            else {
+                entry.target.classList.remove('show1');
+            }
+        });
+    });
+    const hiddenelements1 = document.querySelectorAll('.hidden1');
+    hiddenelements1.forEach((el) => observer1.observe(el));
+
+    const observer2 = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show2');
+            }
+            else {
+                entry.target.classList.remove('show2');
+            }
+        });
+    });
+    const hiddenelements2 = document.querySelectorAll('.hidden2');
+    hiddenelements2.forEach((el) => observer2.observe(el));
+</script>
